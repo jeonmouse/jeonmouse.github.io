@@ -1,0 +1,69 @@
+@import url(//fonts.googleapis.com/earlyaccess/notosanskr.css);
+
+div, h3, h4, h5, h6 {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #fff;
+  padding: 0;
+  margin: 0;
+  font: 14px/1.5 "Noto Sans", sans-serif;
+  color:#616161;
+  font-weight:300;
+  text-align: center;
+}
+
+h1 {
+  font-size:28px;
+  /* color: #aaa; */
+  color: #fff;
+  line-height: 1.1;
+  margin: 0 0 30px;
+  padding: 0;
+  text-shadow: 3px 3px 5px #000;
+}
+
+h2 {
+  color: #fff;
+  text-shadow: 3px 3px 5px #000;
+  margin: 0 0 15px;
+  padding: 0;
+}
+
+h3, h4, h5, h6 {
+  color:#494949;
+}
+
+a {
+  color:#39c;
+  text-decoration:none;
+}
+
+p, li, h2 {
+  text-align: left;
+}
+
+header {
+  margin: 5px 0 0;
+  padding: 0;
+}
+
+section {
+  padding: 0;
+  margin: 0;
+}
+
+hr {
+  display: block;
+  border: none;
+  height: 1px;
+  margin: 1px auto;
+  background: #eee;
+}
+
+footer {
+  bottom: 20px;
+}
+
