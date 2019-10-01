@@ -54,8 +54,10 @@ body {
   color:#616161;
   font-weight: 300;
   text-align: center;
-  animation-name: colour;
-  animation-duration: 6s;
+  background-image: url("res/background.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 header {
