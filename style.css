@@ -1,6 +1,7 @@
 @import url(//fonts.googleapis.com/earlyaccess/notosanskr.css);
 
 body {
+  min-height: 100vh;
   padding: 0;
   margin: 0;
   font: normal 14px/1.5 "Noto Sans", sans-serif;
@@ -8,6 +9,65 @@ body {
   font-weight: 300;
   text-align: center;
   background-color: #000;
-  background-image: url("res/background.png") no-repeat center center fixed;
+  background: url("res/background.png") no-repeat center center fixed;
   background-size: cover;
+}
+
+header {
+  height: calc(100vh - 30px);
+  padding: 0;
+  margin: 0;
+  /* border: dashed 1px; */
+}
+
+footer {
+  height: 20px;
+}
+
+h1 {
+  color: rgb(255, 87, 34);
+  font-size: 25px;
+  font-weight: 500;
+  font-family: serif;
+  margin: 0 0 5px;
+}
+
+h2 {
+  color: rgb(34, 34, 34);
+  font-size: 16px;
+  font-weight: 300;
+  margin: 0 0 10px;
+}
+
+a {
+  margin: 0 10px;
+}
+
+#profile {
+  width: 220px;
+  height: 340px;
+  padding: 60px 20px 20px;
+  margin: 0;
+  background-color: #fff;
+  border-radius: 4px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+#me {
+  width: 120px;
+  padding: 0;
+  margin-bottom: 25px;
+  box-shadow: rgba(0, 0, 0, 0.06) 0px 0px 0px 8px;
+  border-radius: 50%;
+}
+
+#sns {
+  margin: 30px 0;
+}
+
+.unselectable {
+  user-select: none;
 }
