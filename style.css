@@ -25,3 +25,10 @@ footer {
   height: 20px;
   text-align: center;
 }
+
+.profile-card {
+  background: #fff;
+  width: 280px;
+  height: 440px;
+  border-radius: 4px;
+}
