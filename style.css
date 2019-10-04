@@ -39,6 +39,7 @@ h2 {
   font-size: 16px;
   font-weight: 300;
   margin: 0 0 10px;
+  line-height: 110%;
 }
 
 a {
@@ -72,10 +73,9 @@ a {
 
 #shi {
   background-color: #fff;
-  width: 90vw;
+  width: 90%;
   padding: 20px;
-  margin: auto;
-  height: 50vh;
+  margin: 10px auto;
   border-radius: 4px;
 }
 
