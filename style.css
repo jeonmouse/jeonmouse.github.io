@@ -14,7 +14,8 @@ body {
 }
 
 header {
-  height: calc(100vh - 30px);
+  height: 100vh;
+  /* height: calc(100vh - 30px); */
   padding: 0;
   margin: 0;
   /* border: dashed 1px; */
@@ -22,6 +23,7 @@ header {
 
 footer {
   height: 20px;
+  padding: 10px;
 }
 
 h1 {
@@ -66,6 +68,15 @@ a {
 
 #sns {
   margin: 30px 0;
+}
+
+#shi {
+  background-color: #fff;
+  width: 90vw;
+  padding: 20px;
+  margin: auto;
+  height: 50vh;
+  border-radius: 4px;
 }
 
 .unselectable {
