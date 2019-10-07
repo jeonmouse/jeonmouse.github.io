@@ -82,3 +82,16 @@ a {
 .unselectable {
   user-select: none;
 }
+
+.colume {
+  text-align: left;
+  display: inline-block;
+  vertical-align: top;
+  width: 96%;
+}
+
+@media ( min-width: 600px ) {
+  .colume {
+    width: 48%;
+  }
+}
