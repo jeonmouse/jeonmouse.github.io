@@ -11,6 +11,8 @@ body {
   background-color: #000;
   background: url("res/background.png") no-repeat center center fixed;
   background-size: cover;
+  overflow-y: hidden;
+  overflow-x: hidden;
 }
 
 header {
