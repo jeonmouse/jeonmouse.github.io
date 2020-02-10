@@ -10,9 +10,28 @@
   <title>Jeon Mouse</title>
   <link rel="shortcut icon" href="res/jeonmouse.ico" />
   <link rel="stylesheet" href="style.css" />
+  <script src="js/three.r95.min.js"></script>
+  <script src="js/vanta.waves.min.js"></script>
+  <script>
+    VANTA.WAVES({
+      el: "#background",
+      mouseControls: true,
+      touchControls: true,
+      minHeight: 200.00,
+      minWidth: 200.00,
+      scale: 1.00,
+      scaleMobile: 1.00,
+      color: 0x0,
+      shininess: 84.00,
+      waveSpeed: 0.60
+    })
+  </script>
 </head>
-<body>
+<body id="#background">
   <header>
+    Resume&nbsp;
+  </header>
+  <section>
     <div id="profile">
       <img id="me" class="unselectable" src="res/me.png">
       <h1 class="unselectable">Hyeongsoo Jeon</h1>
@@ -28,46 +47,6 @@
           <img src="res/naverblog.png"></a>
 	<a href="https://www.youtube.com/channel/UC9d18Mi1BYIyp6hZoyAWYLA">
           <img src="res/youtube.png"></a>
-      </div>
-    </div>
-  </header>
-  <section>
-    <div class="category">
-      <div class="title">
-        <img class="ci" src="res/samsungci.png">
-        <img class="ci" src="res/shiname.png">
-        <h2>CAD Software Engineer</h2>
-        <h2>3D Modeling and 2D Drawing Expert in CAD</h2>
-      </div>
-      <div class="content">
-        <h1>Skills</h1>
-        <p>C#, WPF, ASP.NET, HTML5, CSS3, JavaScript, OpenGL, Unity3D, VB6</p>
-        <p>Native in Korean, Average in English, Beginner in Japanese</p>
-        <h1>Awards</h1>
-        <p>Second Place in the Smart 3D category of the 2018 Platinum Pipe Awards</p>
-        <h1>Education</h1>
-        <p>Bachelor of Engineering in Ocean Engineering, 4.11/4.50</p>
-	<h1>Experience</h1>
-	<p>Create and maintain a system to extract 2D drawings from 3D models</p>
-	<p>Maintain catalog for plate material and profile section size</p>
-	<p>Create and maintain webpages to manage 3D model database history</p>
-	<p>Be responsible for the SHI smart3d design contest.
-	<p>Created many in-house software related to automatic 3D modeling and structural analysis</p>
-      </div>
-    </div>
-    <div class="category">
-      <div class="title">
-        <img class="ci" src="res/jeonmouse.png">
-        <h2>Hobby / Solo Game Developer</h2>
-        <h2>2D Retro RPG Game Enthusiast</h2>
-      </div>
-      <div class="content">
-	<h1>Skills</h1>
-	<p>C#, Unity3D, Swift, SpriteKit, Draw Pixels</p>
-        <h1>Holy Stone</h1>
-	<p>creating arpg game</p>
-	<h1>Gundam Sprites</h1>
-	<p>Creating gundam game</p>
       </div>
     </div>
   </section>
