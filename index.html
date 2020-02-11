@@ -14,6 +14,10 @@
   <script src="vanta.waves.min.js"></script>
   <script src="three.min.js"></script>
   <script>
+    (function(){var x=document.getElementByClassName("bodyBackground");
+    x.setAttribute("id", "myBackground")})();
+  </script>
+  <script>
     VANTA.WAVES({
       el: "#myBackground",
       mouseControls: true,
@@ -28,7 +32,7 @@
     })
   </script>
 </head>
-<body id="myBackground">
+<body id="myBackground" class="bodyBackground">
   <header>
     Resume&nbsp;
   </header>
